@@ -26,4 +26,8 @@ atomic_tests:
   executor:
     command: |
       Get-Date
+      mkdir data
+      cd data
+      cd ..
+      rm -r data
     name: powershell
